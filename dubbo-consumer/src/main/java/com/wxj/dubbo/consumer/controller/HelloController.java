@@ -2,7 +2,6 @@ package com.wxj.dubbo.consumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.wxj.dubbo.intface.service.HelloService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2021/9/16 0016 14:53
  */
 @RestController
-@Slf4j
 public class HelloController {
 
     @Reference

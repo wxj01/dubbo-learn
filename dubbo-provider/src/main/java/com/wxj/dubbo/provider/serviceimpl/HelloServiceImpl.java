@@ -1,8 +1,8 @@
-package com.wxj.dubbo.intface.service.impl;
+package com.wxj.dubbo.provider.serviceimpl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.wxj.dubbo.intface.service.HelloService;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 /**
  * @author wxj
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
  * @date 2021/9/16 0016 15:47
  */
 @Service
-//@Component
+@Component
 public class HelloServiceImpl implements HelloService {
     @Override
     public String sayHello(String name) {
